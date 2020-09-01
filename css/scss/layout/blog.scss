@@ -22,10 +22,20 @@
   width: 48%;
   display: inline-block;
   vertical-align: top;
+  @media #{mq-mobile} {
+    form {
+      width: auto;
+    }
+  }
 }
 
 .post-destaque {
   margin-right: 2em;
+  @media #{$mq-mobile} {
+    form {
+      width: auto;
+    }
+  }
 }
 
 .post-destaque img {
